@@ -10,7 +10,7 @@
  *  actions by providing values to the keys listed below.
  *
  *  ------------------------
- *  Character Dictionary Key
+ *  Action Dictionary Key
  *  ------------------------
  *  name => This is the action identifier (it will not be shown in the game)
  *  icon => This is the path (absolute or relative) to the action's icon image
