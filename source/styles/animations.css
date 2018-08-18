@@ -1,0 +1,41 @@
+/*
+ * animations.css
+ *
+ * This file defines interface animations
+ *
+ */
+
+@-webkit-keyframes intro {
+    0% { top: 100% }
+    30% { top: -10%; }
+    95% { top: -0% }
+    100% { top: 0; }
+}
+
+@-moz-keyframes intro {
+    0% { top: 100% }
+    30% { top: -10%; }
+    95% { top: -0% }
+    100% { top: 0; }
+}
+
+@-o-keyframes intro {
+    0% { top: 100% }
+    30% { top: -10%; }
+    95% { top: -0% }
+    100% { top: 0; }
+}
+
+@-ms-keyframes intro {
+    0% { top: 100% }
+    30% { top: -10%; }
+    95% { top: -0% }
+    100% { top: 0; }
+}
+
+@keyframes intro {
+    0% { top: 100% }
+    30% { top: -10%; }
+    95% { top: -0% }
+    100% { top: 0; }
+}

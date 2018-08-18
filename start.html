@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-gb">
+    <head>
+        <title>Rock Paper Scissors!</title>
+        <!-- load our stylesheets -->
+        <link href="source/styles/animations.css" rel="stylesheet" />
+        <link href="source/styles/interface.css" rel="stylesheet" />
+
+        <!-- load our scripts -->
+        <script src="source/scripts/characters.js"></script>
+        <script src="source/scripts/actions.js"></script>
+        <script src="source/scripts/engine.js"></script>
+
+        <!-- set up our page -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width="device-width" />
+    </head>
+    <body>
+        <div class="wrapper vertical">
+            <div class="cell">
+                <div class="container horizontal">
+                    <div class="cell">
+                        <div class="container vertical description-const">
+                            <div class="cell">
+                                <span id="character-name">Anne Very Very Longname</span>
+                            </div>
+                            <div class="cell">
+                                <span id="character-dialogue">Lorem ipsum dolor sit amet.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <img src="avatars/Anne.svg" id="character-avatar" />
+                    </div>
+                    <div class="cell vertically-centred">
+                        <img src="actions/Rock.svg" id="character-action" />
+                    </div>
+                </div>
+            </div>
+            <div class="cell space-above">
+                <div class="container horizontal-nr" id="actions">
+                </div>
+            </div>
+            <div class="cell space-above">
+                <h2 id="message"></h2>
+            </div>
+            <div class="cell space-above scoreboard">
+                <div class="container vertical">
+                    <div class="cell">
+                        <div class="container horizontal-nr">
+                            <div class="cell">You: <span id="score-player"></span></div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="container horizontal-nr">
+                            <div><span id="score-opp-label"></span>: <span id="score-opp"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
