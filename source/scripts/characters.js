@@ -59,7 +59,7 @@ var RPSCharacters = [
 
         win: [
             "I won, just as expected...",
-            "Don't feel bad, I'm just a far more superior human being compared to you.",
+            "Don't feel bad, I'm just a far more superior human being, compared to you...",
             "Try to send me someone more competent, VAL."
         ],
 
@@ -82,7 +82,7 @@ var RPSCharacters = [
 
         win: [
             "You've just lost a game to a legend.",
-            "Who won? WHO WON? Is that even a question? Of course, it's me!",
+            "Who won? WHO WON? Is that even a question? Of course, it's I who won!",
             "I should get an award or something."
         ],
 
